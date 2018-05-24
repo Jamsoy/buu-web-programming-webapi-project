@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 
 const app = express()
-let contacts = []
+let contacts = [{name:'Mild',phoneNumber:'0888881972'}]
 
 app.use(bodyParser.json())
 app.use(cors())
